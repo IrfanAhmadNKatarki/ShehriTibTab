@@ -14,6 +14,15 @@ export default function App() {
           <div className="container-fluid">
             <Link className="navbar-brand fw-bold" to="/">
               TIBTAB
+
+              <img 
+                src="/Logos.jpeg"  // ✅ Image from public folder
+                alt="TIBTAB Logo"
+                width="40"
+                height="40"
+                className="me-2 rounded-circle" // Adds spacing & rounded shape
+              />
+
             </Link>
             <button
               className="navbar-toggler"
